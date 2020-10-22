@@ -7,7 +7,7 @@
 <script>
 //出題と答えをセットで入れる配列
 var quizzes = [
-    {q:"dmr", a:"ks"},
+    {q:"dmr", a:"regular"},
 ];
 //出題前に取得するオブジェクトを入れておく変数
 var quiz;
@@ -61,9 +61,8 @@ function wrong(){
 </head>
 <body>
 <h1>第6問</h1> <br>
- <h2 class="hinto">ヒント</h2>  
-<span class="sample1"><h2><input readonly type="text" id="question" value=""></h2></span><br>
-<h2 class="hinto">回答欄</h2>
+ <img src="q6h.png">
+<h2 class="hinto">解答欄（半角）</h2>
 <span class="sample1"><h2><input  type="text" id="answer" value=""></h2></span><br>
 <span class="sample1"><h2><input type="button" value="答える"onclick="doAnswer();"></h2></span><br>
 
